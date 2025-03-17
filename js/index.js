@@ -27,7 +27,7 @@ const map = [
 
 const boundaries = [];
 
-map.forEach[(row, i) => {
+map.forEach(row, i) => 
     row.forEach[(symbol, j) => {
         if (symbol !== ' ') {
             const width = 40
